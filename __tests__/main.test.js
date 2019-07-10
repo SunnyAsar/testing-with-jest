@@ -1,12 +1,11 @@
 import  { captialize , reverseString}  from '../src/main'
 
+test.todo('This is a todo test example')
 
-
-test.todo('hello')
-test('Captialize word',()=>{
+test('Captialize word', () => {
   expect(captialize('hello')).toBe('HELLO')
 })
 
-test('reverseString', ()=>{
+test('Reverse string', () => {
   expect(reverseString('boy')).toBe('yob')
 })
