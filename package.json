@@ -1,0 +1,27 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "A test implementaton of minimal methods and modules using Jest framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunnyAsar/testing-with-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunnyAsar/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/SunnyAsar/testing-with-jest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.8.0"
+  }
+}
