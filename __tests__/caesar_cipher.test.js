@@ -1,22 +1,21 @@
 'use strick'
-import { wrap } from '../src/caesar_cipher'
-import { cipher } from '../src/caesar_cipher'
+import { caesarCipher } from '../src/caesar_cipher'
 
 
 
 describe('Ceaser Cipher Tests', () => {
-  
+
   test('word transposition same case', () => {
-    expect(cipher('a', 1)).toBe('b')
+    expect(caesarCipher('Microverse', 7)).toBe('Tpjyvclyzl')
   })
 
   test('wrap z to a',() => {
-    expect(cipher('z',1)).toBe('a')
+    expect(caesarCipher('Zero',1)).toBe('Afsp')
   })
 
   test('punctuation!',() => {
-    expect(cipher('man!',2)).toBe('ocp')
+    expect(caesarCipher('microverse.<?1', 7)).toBe('tpjyvclyzl.<?1')
   })
 
-  
+
 })
